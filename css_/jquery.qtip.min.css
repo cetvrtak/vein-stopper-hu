@@ -1,0 +1,107 @@
+/* qTip2 v2.1.1 None | qtip2.com | Licensed MIT, GPL | Tue Aug 13 2013 06: 38: 00 */
+.qtip {
+	position: absolute;
+	left: -28000px;
+	top: -28000px;
+	display: none;
+	max-width: 500px;
+	min-width: 50px;
+	font-size: 10.5px;
+	line-height: 14px;
+	direction: ltr;
+	box-shadow: none;
+	padding: 0
+}
+.qtip-content {
+	position: relative;
+	padding: 5px 9px;
+	overflow: hidden;
+	text-align: left;
+	word-wrap: break-word
+}
+.qtip-titlebar {
+	position: relative;
+	padding: 5px 35px 5px 10px;
+	overflow: hidden;
+	border-width: 0 0 1px;
+	font-weight: 700
+}
+.qtip-titlebar+.qtip-content {
+	border-top-width: 0!important
+}
+.qtip-close {
+	position: absolute;
+	right: -9px;
+	top: -9px;
+	cursor: pointer;
+	outline: medium none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray
+}
+.qtip-titlebar .qtip-close {
+	right: 4px;
+	top: 50%;
+	margin-top: -9px
+}
+* html .qtip-titlebar .qtip-close {
+	top: 16px
+}
+.qtip-titlebar .ui-icon,.qtip-icon .ui-icon {
+	display: block;
+	text-indent: -1000em;
+	direction: ltr
+}
+.qtip-icon,.qtip-icon .ui-icon {
+	
+	text-decoration: none
+}
+.qtip-icon .ui-icon {
+	font-size:19px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	text-indent: 0;
+	font: 400 bold 10px/13px Tahoma,sans-serif;
+	color: black;
+	background: transparent none no-repeat -100em -100em
+}
+.qtip-focus {
+	
+}
+.qtip-hover {
+	
+}
+.qtip-default {
+	padding:15px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #CCC;
+	background: #FFF;
+	color: #555;
+	-moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888;
+}
+.qtip-default .qtip-titlebar {
+	background-color: #FFEF93
+}
+.qtip-default .qtip-icon {
+	border-color: #CCC;
+	background: #F1F1F1;
+	color: #777
+}
+.qtip-default .qtip-titlebar .qtip-close {
+	border-color: #AAA;
+	color: #111
+}
+.toolTip {font-weight:bold; font-size:14px; line-height:normal; color:#000; background: url(../images_/link.png) no-repeat left; padding-left:25px; text-decoration:underline; cursor:pointer;}
+.tooltipq {cursor:pointer; text-decoration:underline; color:#03F;}
+.link2 {font-weight:bold; font-size:11px; line-height:normal; color:#666; background: url(../images_/link2.png) no-repeat left; padding-left:17px; text-decoration:underline; cursor:pointer;}
+.link2:hover {color:#333;}
+
+table p {font-size:13px; font-style:normal; margin:3px; text-align:inherit;}
+table h2 {font-size:13px; font-style:normal; margin:3px; text-align:inherit;}
+table h1 {font-size:14px; font-style:normal; margin:3px; text-align:inherit;}
+.qtip-content p {font-size:13px !important; line-height:normal; margin:25px 0; text-indent:0;}
+.second {position:relative; z-index:3333;}
+p#author {font-size:10px !important; margin-top:2px;}
