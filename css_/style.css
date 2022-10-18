@@ -5144,6 +5144,9 @@ hr {
     .contactButton {
         margin: 0;
     }
+    .sigurno {
+        width: 100%;
+    }
     .hollywood_star_wrapper {
         background-image: url("../image.php?comnt=img_01.jpg");
         background-position: center bottom;
@@ -5175,7 +5178,6 @@ hr {
     }
     .sigurno {
         margin-right: 0;
-        width: 100%;
     }
     a.cta-link {
         width: 100%;
