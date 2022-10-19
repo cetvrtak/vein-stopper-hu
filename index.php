@@ -615,11 +615,13 @@ $companyName = 'netsales';
             <p class="right"><strong>Minden jót,<br>Bábi Anita</strong></p>
             <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
-         <div class="half-box">
-            <h4 class="blue text-center">Csináldd<br>meg a <br>legjobb <br>dolgot<br>magaddal<br>és szényen nélkül<br>mutasd meg<br>a tökéletes <br>lábaidat!</h4>
-         </div>
-         <div class="half-box">
-            <img src="image.php?comnt=img_37.jpg">
+         <div id="shameless-legs">
+            <div class="half-box">
+               <h4 class="blue text-center">Udělej<br>pro sebe<br>tu nejlepší<br>věc<br>a ukaž<br>bez studu<br>své<br>dokonalé<br>nohy!</h4>
+            </div>
+            <div class="half-box">
+               <img src="image.php?comnt=img_37.jpg">
+            </div>
          </div>
          <div class="clear"></div>
          <div class="gray-box geobox">

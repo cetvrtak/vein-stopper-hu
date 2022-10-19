@@ -5363,7 +5363,30 @@ hr {
     clear: both;
     float: none;
     width: 100%;
-    margin: 20px auto;
+    max-width: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  #right_side_wrapper .gray-box {
+    max-width: none;
+  }
+  #right_side_wrapper .gray-box img.full,
+  #right_side_wrapper .gray-box img.full.top,
+  #right_side_wrapper .gray-box img.full.bottom {
+    margin: 0 auto;
+  }
+  #right_side_wrapper .half-box {
+    width: auto;
+    max-width: none;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  #two_sides_wrapper > p {
+    margin: 15px;
   }
 }
 
