@@ -1,6 +1,6 @@
 <?php
 $rapid = 'on';
-include '/var/www/sites/footer/sales/header_helsinki.php'; 
+include '/var/www/sites/footer/sales/header_helsinki.php';
 $companyName = 'netsales';
 ?>
 
@@ -28,9 +28,8 @@ $companyName = 'netsales';
     </div>
 
     <!-- ORDER FORM -->
-    <?php 
-    /*$POPUST_ = "15-napi Vein Stopper készlet ingyen";*/
-    include_once('/var/www/sites/footer/form/form_01.php');?>
+    <?php /*$POPUST_ = "15-napi Vein Stopper készlet ingyen";*/
+    include_once '/var/www/sites/footer/form/form_01.php'; ?>
     <!-- ORDER FORM -->
 
     <div class="clear"></div>
@@ -50,7 +49,7 @@ $companyName = 'netsales';
          <p>2 hónap alatt Renáta eltüntette a viszereket</p>
          <img src="image.php?comnt=testimonial_01.jpg" width="250"><p>„Csak két és fél hónap kellett ahhoz, hogy eltünjönek a viszereim! Ha ezt nem éltem volna át, nem hittem volna el, hogy ez lehetséges. Ha a testvérem nem beszélt volna rá, hogy próbáljam ki a Vein Stoppert, leirtam volna, mint a többit, hogy ez is egy átverés.“*</p>
          <h4>Renáta, Hajdúszoboszló</h4>
-         <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+         <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          <div class="clear"></div>
       </div>
       <h1 class="text-center">Még Daniella is megköszönte, hogy a természetes összetevőktől megszüntek a viszerei!</h1>
@@ -59,7 +58,7 @@ $companyName = 'netsales';
          <p>Daniellának 6hét múlva sikerült</p>
          <img src="image.php?comnt=testimonial_02.jpg"><p>„Mielőtt elmentünk volna nyaralni, sikerült eltüntetnem a csunya viszereket. Rendszeresen használtam a krémet, betartottam az edzést, evést, alvást feltett lábakkal és első alkalommal végre büszkén felvehettem a füdrőruhát. Miért ne, az én lábaim most tökéletesek!“*</p>
          <h4>Daniella, Gödöllő</h4>
-         <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+         <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          <div class="clear"></div>
       </div>
       <h4 class="text-center">Pillanatnyilag a nők többsége világszerte tünteti el a viszereket ezzel a módszerrel...</h4>
@@ -162,7 +161,7 @@ $companyName = 'netsales';
             </div>
             <div class="clear"></div>
          </div>
-         <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+         <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
       </div>
       <h1 class="text-center green">Ossza meg velünk a sikertörténetét, és mi megjutalmazzuk érte!</h1>
       <h2>Tények a viszerekről és az életcél</h2>
@@ -195,7 +194,7 @@ $companyName = 'netsales';
          <p>Az én tapasztalatom a Vein Stopper krém használatávan csodálatos. Átéltem minden igértet: a fájdalmak megszüntek, a viszerek visszahúzódtak és a bőr a lábamon hibátlan.</p>
          <p>Még ha 54éves is vagyok, szeretek sétálni és aktiv lenni, de a viszerek meggátolnak a sétálásban és a játszásban az unokákkal. Mindig panaszkodtam és nehezen sétáltam. A kolléganőm emlitette a Vein Stopper krémet. Egy hónapja használom és a lábaim már alig fájnak, és a viszerek is visszahúzódtak... mellékhatás nélkül! Úgy érzem magam, mint aki megfiatalodott pár évet és tele vagyok energiával!“*</p>
          <p><strong>-Heléna, Győr</strong></p>
-         <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+         <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
       </div>
       <hr>
       <div class="geobox">
@@ -203,7 +202,7 @@ $companyName = 'netsales';
          <h6>„Egy volt fitnesedző aki leállt az edzéssel, elmeséli, hogyan szabadult meg a viszerektől amiktől évekig szenvedett“</h6>
          <p>Ezek tényleg valódi fotók. Ezeken látni Catherine Jones, volt fitnesedzőt, 2015.06.07. és fél évvel később, 2015.12.04. Catherine a Vein Stopper krém segitségével tüntette el a viszereit.</p>
          <p>Ha problémáid vannak a viszerekkel, nézd meg ezeket a fotókat, mert ez mutassa meg, hogy mennyire gyorsan ELÉRHETED a sima lábakat, viszerek nélkül. Catherine megosztotta az adatokat ebben az interjúban...</p>
-         <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+         <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          <hr>
          <p><strong>KÉRDÉS: Jones, ma néztük önt, és hihetetlen dolgon esett át - köszönet a Vein Stopper krémnek. Mielőtt még beszélnénk róla, mesélne még a viszérproblémáiról?</strong></p>
          <p><strong>Catherine</strong>: Egész életemben a fitnessel foglalkoztam. Már akkor elkezdődtek a problémák a viszereimmel, de még annyira nem fájtak és túrtem. Amikor leálltam a fitnessel, és mindeféle gyakorlatokkal, akkor kezdődtek a problémák. Néhány kilót felszedtem és a fájdalom, már kibirhatatlan volt.</p>
@@ -260,7 +259,7 @@ $companyName = 'netsales';
       <div class="geobox">
          <h1 class="text-center large violet">„Megoldottam a viszérproblémámat, hibátlanul szép lábakat kaptam!”</h1>
          <p class="green">A növényi összetételű krém segitségével Elena megváltoztatta a lábai kinézetét. Most neked is egyszerű, mint a többi nőnek, szerte e világon, elkezdheted az első lépéseket a szép lábakért!</p>
-         <img src="image.php?comnt=testimonial_09.jpg" class="full"><p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+         <img src="image.php?comnt=testimonial_09.jpg" class="full"><p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          <p><strong>Elena inspiráló története a viszerek eltávolitásáról!</strong></p>
          <img src="image.php?comnt=product_02.jpg" class="right"><h2>HOGYAN VÁLTOZTATTA MEG AZ ÉLETEMET A VISZEREK ELTÜNTETÉSE</h2>
          <p>Elena mindig küzdött a vizsgálatokkal. A viszerei nagyon fájtak, depressziós volt, és nagyon kevés volt az önbizalma. De akor megtalálta a megoldást - Vein Stopper! Ha Elene elérte ezt - te is el tudod. Olvasd el a történetét, ami téged is el fog vezetni a szebb, simább és rugalmasabb lábakhoz!</p>
@@ -316,7 +315,7 @@ $companyName = 'netsales';
          <img src="image.php?comnt=testimonial_10.jpg" class="best-buy-story"><div class="clear"></div>
          <p>„Még mielőtt kipróbáltam a Vein Stopper krémet, kipróbáltam minden készitményt, ami a kezembe került. Nem voltam igazan elégedett az eredménnyel. Az edzés az én esetemben hiábavaló volt. És akkor a barátnőm ajánlotta a Vein Stopper krémet, és tapasztalatból hozzátette, hogy be kell tatani az étrendet is. Két hónap alatt, a viszereim tökéletesen visszahúzódtak, és soha nem éreztem magam ilyen jól! A lábaim tökéletesek, simák és én is elégedett vagyok a kinézetemmel, mért már nem kell rejtegetnem. Még mindig használom időközönként a Vein Stopper krémet, mert nem szeretném, hogy a viszereim újra kijöjjönek. Mindenkinek ajánlom ezt a krémet, akiknek problémájuk van a viszerekkel! Szivből köszönöm ennek a csodálatos készitménynek!“*</p>
          <p>- Görög Orsolya, Hajdúnánás</p>
-         <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+         <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
       </div>
       <h1>Engedje el a kalandort belül!</h1>
       <img src="image.php?comnt=img_20.jpg" class="full"><h1 class="text-center green large"><span class="red">A legszélsőségesebb</span> készitmény a viszerek eltüntetésére!</h1> 
@@ -384,7 +383,7 @@ $companyName = 'netsales';
          <h4>„Végre magbiztosan a bikiniben!“</h4>
          <p>„Szia, a nevem Keresztes Karolina. 30 éves vagyok és Győrben élek. Hosszú ideig magam alatt voltam, mert a modell karrieremnek búcsút kellett mondanom a viszereim miadt, mert már kezdték észrevenni. Útáltam a lábaimat. Jóformán az egész lábam kék volt, amikor elkezdtem használni a Vein Stopper krémet. Ném vártam semilyen különleges eredményt, mert nem ez volt az első krém amit használtam. De az első, amelyikkel eredményt értem el. Csodásan érzem magam, nem szégyellek levetkőzni fürdőruhára, hogy megmutassam a lábaimat. Csaj ajánlani tudom mindenkinek, akiknek problémájuk van a viszerekkel. Adjatok egy lehetőséget, nem fogtok csalódni - csak nézzetek rám! :).“*</p>
          <p>Üdvözlet, <br>Keresztes Karolina</p>
-         <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+         <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
       </div>
       <h2>Ezt nézd meg:</h2>
       <img src="image.php?comnt=img_27.jpg" class="left"><h3>Tüntesd el a viszereidet a Vein Stopper krémmel, <span class="red">és nyerd meg a dijat!</span></h3>
@@ -543,7 +542,7 @@ $companyName = 'netsales';
             <h5 class="blue">„Boldogan hordok miniszoknyát!“</h5>
             <p class="red"><strong>2hét alatt tüntette el a viszereket</strong></p>
             <img src="image.php?comnt=testimonial_31.jpg" class="full"><p>„A válásom után szerettem volna csinálni magammal valamit. Esélyt adtam ennek a krémnek, és 2hét alatt el is távolitotta a viszereimet. Most a lábaim sokkal jobban néznem ki, mint középiskolában, és csodásan érzem magam! Köszönöm!“*</p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <img src="image.php?comnt=badge_31.png" class="badge"><div class="gray-box">
             <h5 class="green">100% -ig biztonságos</h5>
@@ -569,7 +568,7 @@ $companyName = 'netsales';
                <p class="red"><strong>Kinga legyőzte a viszereket</strong></p>
                <img src="image.php?comnt=testimonial_32.jpg" class="full"><p>„Döntöttem és sikerült! Legyőztem a viszereket, amikkel már régóta harcoltam. Sokkal jobban érzem magam fizikailag is és elégedett vagyok magammal. Mindenki lássa a változást rajtam, nem csak a külsőmön - rendesebb személy is lett belőlem!“*</p>
                <p class="right"><strong>- Kinga</strong></p>
-               <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+               <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
                <hr>
             </div>
             <h5 class="text-center green">Szeretek ruhákat felvenni<br>utálom rejtegetni a lábaimat</h5>
@@ -599,7 +598,7 @@ $companyName = 'netsales';
             <p class="red"><strong>A lábaim csodállatosak!</strong></p>
             <img src="image.php?comnt=testimonial_33.jpg" class="full"><p>„Mindig is volt problémám a viszerekkel, és amikor elkezdtem a középiskolat, csak rosszabbodott. És akkor, mint minden lánynak, fontos volt nekem is, hogy szép legyek, hogy tetszek a fiúknak. Mindenkinek, akiknek problémája van a lábaival, tudja, hogy hogyan éreztem magam - féltékenyen néztem azokat a lányokat, akiknek a lábaik tökéletesek voltak, és a fiúk szaladtak utánnuk. Elkezdtem lassan. Először abbahagytam a keresztbe tett lábakkal való ülést, majd elkezdtem használni a Vein Stopper krémet minden nap. Már két hét múlva láttam a változást, a kedvemen és a lábaimon is!! Egyre nagyobb lett az önbizalmam és egyre jobban motivált, hogy folytassam. És itt vagyok (boldog).“*</p>
             <p class="right"><strong>- Horvát Antónia</strong></p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <div class="half-box no">
             <img src="image.php?comnt=product_022.jpg">
@@ -614,7 +613,7 @@ $companyName = 'netsales';
             <p class="red"><strong>A lábaim ismét hibátlanok</strong></p>
             <img src="image.php?comnt=testimonial_34.jpg" class="full"><p>„Üdvözlet, Bábi Anita vagyok Pencről, 33 éves. Kellemetlenül éreztem magam, mikor a lányomnak megjelentek a viszerek a lábán. Rengeteget állok a munkahelyemen, fél év alatt katasztrófák lettek a lábaim. Ekkor a barátnőm felajánlotta nekem a Vein Stopper krémet, de megigértem neki, hogy mielőtt elkezdem használni, kikérem az orvosom véleményét. Őszintén, semmit nem hallgattam meg belőle, egyszerűen csak elkezdtem használni a Vein Stopper krémet, és a sarkamig érő ruhákat hordtam. Menekültem, ahogyan csak tudtam az üéstől és az állástól és hamarosan láttam az eredményt is! Most az motivál, hogy megtartsam a lábaim tökéletességét! Köszönöm!“*</p>
             <p class="right"><strong>Minden jót,<br>Bábi Anita</strong></p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <div class="half-box">
             <h4 class="blue text-center">Csináldd<br>meg a <br>legjobb <br>dolgot<br>magaddal<br>és szényen nélkül<br>mutasd meg<br>a tökéletes <br>lábaidat!</h4>
@@ -629,7 +628,7 @@ $companyName = 'netsales';
             <p class="red"><strong>Nem érzek több fájdalmat a lábamban</strong></p>
             <img src="image.php?comnt=testimonial_35.jpg" class="full"><p>„A Vein Stopper-nek köszönhetem, hogy jobban érzem magam, és a lábaim sokkal jobbak, mint voltak... Voltam az érsebésznél is, és ajánlotta, hogy a krém mellett végezzek gyakorlatokat is, és ezért leirhatatlanul hálás vagyok neki!*</p>
             <p class="right"><strong>- Némedi Miklós</strong></p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <img src="image.php?comnt=img_38.jpg"><div class="gray-box geobox">
             <h6 class="small underline">Miklós Katinka</h6>
@@ -638,7 +637,7 @@ $companyName = 'netsales';
             <img src="image.php?comnt=testimonial_36.jpg" class="full"><p>„Azzól a naptól kezdve, mióta felvettem egy rövid ruhát és láttam, hogy milyenek a lábaim, megbolondultam. Azt kérdeztem, hogy engedhettem ezt meg magamnak. Miután jól kisirtam magam, eldöntöttem, hogy a dolgokat meg kell változtatnom. Elkezdtem keresgélni az interneten, hogy hogyan távolithatom el a viszereket gyorsan és egyszerűen. Elkezdtem minden este gyakorlatokat végezni, és véletlenül rátaláltam a Vein Stopper krémre az egyik fórumon, ahol az emberek nem győzték ezt dicsérni. Megtaláltam, és megrendeltem. Naponta kétszer bekentem vele a lábaimat. Szinte rögtön észrevettem az eredményt, és igy végeztem is a gyakorlatokat minden este, ezért az eredmények is egyre jobbak lettek.</p>
             <p><span class="yellow_bg">Először amikor megláttam a lábaimat, hogy már nem viszeres, nem hittem a szememnek. Még nagyobb öröm volt az, hogy a fájdalom is megszünt. Szivből ajánlom mindenkinek ezt a krémet, akik a viszereikkel küzdenek. Semmilyen mellékhatása nem volt, a használata egyszerű és nagyon gyorsan hat. Folytatom a használatát</span>.“*</p>
             <p class="right"><strong>Köszönöm<br>- Miklós Katinka</strong></p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <div class="gray-box">
             <img src="image.php?comnt=badge_33.png" class="badge"><p><strong>Ne fogadjon el olcsó utánzatokat</strong></p>
